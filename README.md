@@ -105,7 +105,7 @@ Mark Schelbergen¹, Roland Schmehl¹ (email: r.schmehl@tudelft.nl), Bert Buchhol
 
 ¹ Faculty of Aerospace Engineering, Delft University of Technology, Kluyverweg 1, 2629 HS Delft, The Netherlands
 
-² [Kitepower B.V.](http://kitepower.nl/), Schieweg 15, Hall R, 2627 AN Delft, The Netherlands
+² [Kitepower B.V.](https://thekitepower.com), Schieweg 15, Hall R, 2627 AN Delft, The Netherlands
 
 ## License
 
