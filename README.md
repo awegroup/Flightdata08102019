@@ -25,7 +25,7 @@ The new flow measurement setup has been made more compact compared to earlier ex
 ## Terms and requests concerning using the data:
 The contents of this repository are published under a CC-BY 4.0 license: the data can be used as long as attribution is made to this repository. Nevertheless, if you pursue a publication that uses the data we request you to:
 - Stress that the test flight does not represent the state-of-the-art of Kitepower as (1) the system configuration was already dated at the time of the test and has gone through substantial development since then (e.g. Kitepower nowadays employs a much larger kite) and (2) the test was focused on data acquisition rather than maximising energy production; 
-- Acknowledge Kitepower and include a link to www.kitepower.nl;
+- Acknowledge Kitepower and include a link to https://thekitepower.com;
 - Send the preprint including the data via email to publications@kitepower.nl;
 - Allow Kitepower to post the preprint of the publication on kitepower.nl and/or Kitepower-related networks, if such public posting is in accordance with the agreement between author and publisher.
 
