@@ -4,6 +4,8 @@ For this specific test, the 25m² leading edge inflatable V3 kite was flown, whi
 
 The measurements were performed with the 100 kW technology development platform of Kitepower B.V., which is a spin-off company from Delft University of Technology. For this particular test flight, the kite power system was equipped with a Leading Edge Inflatable (LEI) V3 kite. The traction force was transferred to the ground station by a tether made of Dyneema. A general description of the kite power system is given in [[2](#Vlugt2013), [3](#Salma2020), [4](#Roullier2020)].
 
+This flight test has been thoroughly investigated in [[5](#Schelbergen2024)]. In this work the flight data has been used to reconstruct the instantaneous wind profile, characterize the kite aerodynamics, analyze the swinging motion of the kite, analyze the pumping cycle flight trajectory and validate the system performance.  
+
 | Kite                          |          | Tether   |           |
 |-------------------------------|----------|----------|-----------|
 | Total wing area               | 25 m²    | Density  | 724 kg/m³ |
@@ -20,7 +22,7 @@ Each cycle consists of a traction phase where the kite flies figure of eight man
 
 The new flow measurement setup has been made more compact compared to earlier experiments. It still employs a Pitot tube to measure the relative flow velocity together with a single orthogonal wind vane to measure the flow angle parallel to the symmetry plane of the kite. For this specific flight test, the sideslip was not measured. The relative flow sensors are mounted off-center at the lower knot of the left power line. The pressure, temperature, position (GPS), and attitude (IMU) at the kite were measured by two Pixhawks, one on each of the center struts. Also the tether force, reel out speed, and wind speed/direction are measured at the ground station. The data was recorded at a frequency of 10 Hz.
 
-![V3 kite](kite_on_ground.jpg)
+![V3 kite](kite_on_ground.png)
 
 ## Terms and requests concerning using the data:
 The contents of this repository are published under a CC-BY 4.0 license: the data can be used as long as attribution is made to this repository. Nevertheless, if you pursue a publication that uses the data we request you to:
@@ -34,6 +36,13 @@ The contents of this repository are published under a CC-BY 4.0 license: the dat
 The acquired data is provided in csv-format. In the content description we use the following abbreviations:
 - NED: North-East-Down earth-fixed reference frame
 - FRD: Forward-Right-Down body-fixed reference frame
+
+The initial part of the names of some listed variables indicates their origin or the sensor by which they are measured: 
+- airspeed: flow measurement setup (overlaid white circle in photo above)
+- kite_0: Pixhawk unit 0 (overlaid red circle in photo above)
+- kite_1: Pixhawk unit 1 (overlaid green circle in photo above)
+
+The kite position data is expected to be derived from measurements taken by Pixhawk unit 0 and processed using the default Kalman filter implementation provided by Pixhawk. 
 
 |     | Variable                    | Description                                                                                                                                                                                                                                                          | Unit             |
 |----:|:----------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------|
@@ -67,7 +76,7 @@ The acquired data is provided in csv-format. In the content description we use t
 |  28 | ground_pos_longitude        | Geodetic longitude of the ground station                                                                                                                                                                                                                             | deg              |
 |  29 | ground_pos_altitude         | Geodetic altitude of the ground station                                                                                                                                                                                                                              | m                |
 |  30 | ground_tether_reelout_speed | Reel-out speed of the tether (inferred from the rotational speed of the drum)                                                                                                                                                                                        | m/s              |
-|  31 | ground_tether_force         | Tether force measured at the ground station (inferred from force on outlet pulley and tether angle)                                                                                                                                                                  | kg               |
+|  31 | ground_tether_force         | Tether force measured at the ground station (inferred from load cell at outlet pulley and tether angle)                                                                                                                                                              | kg               |
 |  32 | est_upwind_direction        | Running average of the instantaneous upwind direction - with which the x-axis of the wind reference frame is aligned                                                                                                                                                 | deg              |
 |  33 | kite_pos_east               | Position of the kite east of the ground station                                                                                                                                                                                                                      | m                |
 |  34 | kite_pos_north              | Position of the kite north of the ground station                                                                                                                                                                                                                     | m                |
@@ -98,6 +107,8 @@ The acquired data is provided in csv-format. In the content description we use t
 <a name="Roullier2020">[3]</a> Arthur Roullier: "Experimental analysis of a kite system’s dynamics". MSc Thesis, EPFL, 2020. https://doi:10.5281/zenodo.7752407
 
 <a name="Salma2020">[4]</a> Volkan Salma, Felix Friedl, Roland Schmehl: "Improving reliability and safety of airborne wind energy systems". Wind Energy, 2020; 23: 340– 356. https://doi.org/10.1002/we.2433
+
+<a name="Schelbergen2024">[5]</a> Mark Schelbergen: "Power to the airborne wind energy performance model: Estimating long-term energy production with an emphasis on pumping flexible-kite systems". Delft University of Technology, 2024. https://doi.org/10.4233/uuid:353d390a-9b79-44f1-9847-136a6b880e12
 
 ## Authors
 
