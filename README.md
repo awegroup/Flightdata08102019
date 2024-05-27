@@ -42,7 +42,7 @@ The initial part of the names of some listed variables indicates their origin or
 - kite_0: Pixhawk unit 0 (overlaid red circle in photo above)
 - kite_1: Pixhawk unit 1 (overlaid green circle in photo above)
 
-The kite position data is expected to be derived from measurements taken by Pixhawk unit 0 and processed using the default Kalman filter implementation provided by Pixhawk. 
+The kite position data is derived from measurements taken by Pixhawk unit 0 and processed using the default Kalman filter implementation provided by Pixhawk. 
 
 |     | Variable                    | Description                                                                                                                                                                                                                                                          | Unit             |
 |----:|:----------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------|
