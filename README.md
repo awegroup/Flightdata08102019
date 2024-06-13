@@ -100,15 +100,15 @@ The kite position data is derived from measurements taken by Pixhawk unit 0 and 
 
 ## References
 
-<a name="Oehler2018b">[1]</a> Johannes Oehler, Roland Schmehl: "Aerodynamic characterization of a soft kite by in situ flow measurement". Wind Energy Science, 2018. https://doi.org/10.5194/wes-2018-46
+<a name="Oehler2018b">[1]</a> Johannes Oehler, Roland Schmehl: "Aerodynamic characterization of a soft kite by in situ flow measurement". Wind Energy Science, 2018. [https://doi.org/10.5194/wes-2018-46](https://doi.org/10.5194/wes-2018-46)
 
-<a name="Vlugt2013">[2]</a> Rolf van der Vlugt, Johannes Peschel, Roland Schmehl: "Design and Experimental Characterization of a Pumping Kite Power System". In: Uwe Ahrens, Moritz Diehl, Roland Schmehl (eds.) Airborne Wind Energy. Green Energy and Technology, chap. 23, pp. 403–425, Springer, Berlin Heidelberg, 2013. https://doi.org/10.1007/978-3-642-39965-7_23
+<a name="Vlugt2013">[2]</a> Rolf van der Vlugt, Johannes Peschel, Roland Schmehl: "Design and Experimental Characterization of a Pumping Kite Power System". In: Uwe Ahrens, Moritz Diehl, Roland Schmehl (eds.) Airborne Wind Energy. Green Energy and Technology, chap. 23, pp. 403–425, Springer, Berlin Heidelberg, 2013. [https://doi.org/10.1007/978-3-642-39965-7_23](https://doi.org/10.1007/978-3-642-39965-7_23)
 
-<a name="Roullier2020">[3]</a> Arthur Roullier: "Experimental analysis of a kite system’s dynamics". MSc Thesis, EPFL, 2020. https://doi:10.5281/zenodo.7752407
+<a name="Roullier2020">[3]</a> Arthur Roullier: "Experimental analysis of a kite system’s dynamics". MSc Thesis, EPFL, 2020. [https://doi.org/10.5281/zenodo.7752407](https://doi.org/10.5281/zenodo.7752407)
 
-<a name="Salma2020">[4]</a> Volkan Salma, Felix Friedl, Roland Schmehl: "Improving reliability and safety of airborne wind energy systems". Wind Energy, 2020; 23: 340– 356. https://doi.org/10.1002/we.2433
+<a name="Salma2020">[4]</a> Volkan Salma, Felix Friedl, Roland Schmehl: "Improving reliability and safety of airborne wind energy systems". Wind Energy, 2020; 23: 340– 356. [https://doi.org/10.1002/we.2433](https://doi.org/10.1002/we.2433)
 
-<a name="Schelbergen2024">[5]</a> Mark Schelbergen: "Power to the airborne wind energy performance model: Estimating long-term energy production with an emphasis on pumping flexible-kite systems". Delft University of Technology, 2024. https://doi.org/10.4233/uuid:353d390a-9b79-44f1-9847-136a6b880e12
+<a name="Schelbergen2024">[5]</a> Mark Schelbergen: "Power to the airborne wind energy performance model: Estimating long-term energy production with an emphasis on pumping flexible-kite systems". PhD Thesis, Delft University of Technology, 2024. [https://doi.org/10.4233/uuid:353d390a-9b79-44f1-9847-136a6b880e12](https://doi.org/10.4233/uuid:353d390a-9b79-44f1-9847-136a6b880e12)
 
 ## Authors
 
