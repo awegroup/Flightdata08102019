@@ -12,7 +12,8 @@ This flight test has been thoroughly investigated in [[5](#Schelbergen2024)]. In
 | Projected wing area           | 19.75 m² | Diameter | 10 mm     |
 | Canopy mass                   | 11 kg    |          |           |
 | Canopy-mounted equipment mass | 3.2 kg   |          |           |
-| KCU mass                      | 25 kg    |          |           |
+| KCU +cover mass               | 19.2 kg  |          |           |
+| Onboard wind turbine mass     | 2.8 kg   |
 | KCU frontal area              | 0.25  m² |          |           |
 
 ## Description of the test flight
