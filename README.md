@@ -4,7 +4,7 @@ For this specific test, the 25m² leading edge inflatable V3 kite was flown, whi
 
 The measurements were performed with the 100 kW technology development platform of Kitepower B.V., which is a spin-off company from Delft University of Technology. For this particular test flight, the kite power system was equipped with a Leading Edge Inflatable (LEI) V3 kite. The traction force was transferred to the ground station by a tether made of Dyneema. A general description of the kite power system is given in [[2](#Vlugt2013), [3](#Salma2020), [4](#Roullier2020)].
 
-This flight test has been thoroughly investigated in [[5](#Schelbergen2024)]. In this work the flight data has been used to reconstruct the instantaneous wind profile, characterize the kite aerodynamics, analyze the swinging motion of the kite, analyze the pumping cycle flight trajectory and validate the system performance.  
+This flight test has been thoroughly investigated in [[5](#Schelbergen2024a)] and [[6](#Schelbergen2024b)]. In this work the flight data has been used to reconstruct the instantaneous wind profile, characterize the kite aerodynamics, analyze the swinging motion of the kite, analyze the pumping cycle flight trajectory and validate the system performance.  
 
 | Kite                          |          | Tether   |           |
 |-------------------------------|----------|----------|-----------|
@@ -115,7 +115,9 @@ The kite position data is derived from measurements taken by Pixhawk® unit 0 an
 
 <a name="Salma2020">[4]</a> Volkan Salma, Felix Friedl, Roland Schmehl: "Improving reliability and safety of airborne wind energy systems". Wind Energy, 2020; 23: 340– 356. [https://doi.org/10.1002/we.2433](https://doi.org/10.1002/we.2433)
 
-<a name="Schelbergen2024">[5]</a> Mark Schelbergen: "Power to the airborne wind energy performance model: Estimating long-term energy production with an emphasis on pumping flexible-kite systems". PhD Thesis, Delft University of Technology, 2024. [https://doi.org/10.4233/uuid:353d390a-9b79-44f1-9847-136a6b880e12](https://doi.org/10.4233/uuid:353d390a-9b79-44f1-9847-136a6b880e12)
+<a name="Schelbergen2024a">[5]</a> Mark Schelbergen, Roland Schmehl: Swinging motion of a kite with suspended control unit. Wind Energy Science, vol. 9, pp. 1323–1344, 2024. [https://doi.org/10.5194/wes-9-1323-2024](https://doi.org/10.5194/wes-9-1323-2024)
+
+<a name="Schelbergen2024b">[6]</a> Mark Schelbergen: "Power to the airborne wind energy performance model: Estimating long-term energy production with an emphasis on pumping flexible-kite systems". PhD Thesis, Delft University of Technology, 2024. [https://doi.org/10.4233/uuid:353d390a-9b79-44f1-9847-136a6b880e12](https://doi.org/10.4233/uuid:353d390a-9b79-44f1-9847-136a6b880e12)
 
 ## Authors
 
