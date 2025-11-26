@@ -18,7 +18,7 @@ This flight test has been thoroughly investigated in [[5](#Schelbergen2024)]. In
 
 More data is available from the [short flight summary data sheet](2019-10-08-short_flight_summary.csv).
 
-![V3 kite](media/screenshot_swivelcam.png) 
+![V3 kite](media/screenshot_swivelcam.png)  
 *Screenshot of the swivel camera video recording.*
 
 ## Description of the test flight
