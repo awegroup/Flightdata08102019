@@ -19,7 +19,7 @@ This flight test has been thoroughly investigated in [[5](#Schelbergen2024)]. In
 More data is available from the [short flight summary data sheet](2019-10-08-short_flight_summary.csv).
 
 ![V3 kite](media/screenshot_swivelcam.png)  
-*Screenshot of the swivel camera video recording.*
+*Screenshot of the swivel video camera.*
 
 ## Description of the test flight
 The test flight took place at the former naval air base Valkenburg in the Netherlands with the ground station positioned at a latitude of 52.1691°, a longitude of 4.4310°, and an elevation of −5 m (below sea level). It lies close to Leiden and near the coast which is roughly 3.5 km away towards the west. The direct surrounds are mostly flat open land with some more vegetation towards the dune area at the coast. The wind conditions were moderate with a westerly wind of roughly 5 m/s at the start, which gradually changed to a west-southwesterly wind of roughly 7 m/s. The conservative operations enabled a flight of approximately three hours in which 87 pumping cycles were flown.
