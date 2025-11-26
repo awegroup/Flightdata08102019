@@ -16,14 +16,20 @@ This flight test has been thoroughly investigated in [[5](#Schelbergen2024)]. In
 | Onboard wind turbine mass     | 2.8 kg   |
 | KCU frontal area              | 0.25  m² |          |           |
 
+More data is available from the [short flight summary data sheet](2019-10-08-short_flight_summary.csv).
+
+![V3 kite](media/screenshot_swivelcam.png)
+*Screenshot of the swivel camera video recording.*
+
 ## Description of the test flight
 The test flight took place at the former naval air base Valkenburg in the Netherlands with the ground station positioned at a latitude of 52.1691°, a longitude of 4.4310°, and an elevation of −5 m (below sea level). It lies close to Leiden and near the coast which is roughly 3.5 km away towards the west. The direct surrounds are mostly flat open land with some more vegetation towards the dune area at the coast. The wind conditions were moderate with a westerly wind of roughly 5 m/s at the start, which gradually changed to a west-southwesterly wind of roughly 7 m/s. The conservative operations enabled a flight of approximately three hours in which 87 pumping cycles were flown.
 
 Each cycle consists of a traction phase where the kite flies figure of eight maneuvers and a retraction phase with transition phases in between. We have divided the original dataset (2019-10-08_11-36-20_ProtoLogger_phases.csv) in separate csv-files for each cycle, which start with the transition into traction phase. All cycles have a similar altitude profile and flight path. To outline the flight path, we describe that of the 65th pumping cycle next. The traction phase fully comes into effect at the lowest altitude around 130 m. In the traction phase the kite flies 3 and a half figure of eight maneuvers after which it exceeds 200 m altitude. In the subsequent transition phase and at the start of the reel-in phase, the kite rises up to roughly 270 m after which the kite is lowered by retracting the tether. We appended three columns for flight section identifiers that differ from the original ones. The new identifiers allow  differentiating between flight sections in a more detailed manner, e.g., differentiating between left and right turns, and are particularly useful when comparing with simulation results.
 
-The new flow measurement setup has been made more compact compared to earlier experiments. It still employs a Pitot tube to measure the relative flow velocity together with a single orthogonal wind vane to measure the flow angle parallel to the symmetry plane of the kite. For this specific flight test, the sideslip was not measured. The relative flow sensors are mounted off-center at the lower knot of the left power line. The pressure, temperature, position (GPS), and attitude (IMU) at the kite were measured by two Pixhawks, one on each of the center struts. Also the tether force, reel out speed, and wind speed/direction are measured at the ground station. The data was recorded at a frequency of 10 Hz.
+The new flow measurement setup has been made more compact compared to earlier experiments. It still employs a Pitot tube to measure the relative flow velocity together with a single orthogonal wind vane to measure the flow angle parallel to the symmetry plane of the kite. For this specific flight test, the sideslip was not measured. The relative flow sensors are mounted off-center at the lower knot of the left power line. The pressure, temperature, position (GPS), and attitude (IMU) at the kite were measured by two Pixhawk® units, one on each of the center struts. Also the tether force, reel out speed, and wind speed/direction are measured at the ground station. The data was recorded at a frequency of 10 Hz.
 
-![V3 kite](kite_on_ground.png)
+![V3 kite](media/kite_on_ground.png)
+*Fully instrumented V3.25B kite before launch (photo courtesy of Kitepower B.V.). The overlaid red, green, and white circles mark Pixhawk® sensor 0, Pixhawk® sensor 1, and the flow sensors, respectively.*
 
 ## Terms and requests concerning using the data:
 The contents of this repository are published under a CC-BY 4.0 license: the data can be used as long as attribution is made to this repository. Nevertheless, if you pursue a publication that uses the data we request you to:
@@ -40,10 +46,10 @@ The acquired data is provided in csv-format. In the content description we use t
 
 The initial part of the names of some listed variables indicates their origin or the sensor by which they are measured: 
 - airspeed: flow measurement setup (overlaid white circle in photo above)
-- kite_0: Pixhawk unit 0 (overlaid red circle in photo above)
-- kite_1: Pixhawk unit 1 (overlaid green circle in photo above)
+- kite_0: Pixhawk® unit 0 (overlaid red circle in photo above)
+- kite_1: Pixhawk® unit 1 (overlaid green circle in photo above)
 
-The kite position data is derived from measurements taken by Pixhawk unit 0 and processed using the default Kalman filter implementation provided by Pixhawk. 
+The kite position data is derived from measurements taken by Pixhawk® unit 0 and processed using the default Kalman filter implementation provided by Pixhawk®. 
 
 |     | Variable                    | Description                                                                                                                                                                                                                                                          | Unit             |
 |----:|:----------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------|
